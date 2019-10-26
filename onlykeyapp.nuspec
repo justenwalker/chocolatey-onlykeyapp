@@ -22,28 +22,29 @@
     <bugTrackerUrl>https://github.com/trustcrypto/OnlyKey-App/issues</bugTrackerUrl>
     <tags>OnlyKey crypto</tags>
     <summary>The official app for OnlyKey</summary>
-    <description><![CDATA[OnlyKey App is an app to be used along with an OnlyKey device. The app is used for things like:
+    <description><![CDATA[
+OnlyKey App is an app to be used along with an OnlyKey device. The app is used for things like:
 
-    - Initial setup of OnlyKey (Setup)
-    - Configuration of accounts (Slots)
-    - Loading keys for PGP, SSH, and secure backup (Keys)
-    - Backup and restore of OnlyKey (Backup/Restore)
-    - Setting OnlyKey preferences (Preferences)
-    - Setting advanced options such as Yubikey and U2F security info (Advanced)
+- Initial setup of OnlyKey (Setup)
+- Configuration of accounts (Slots)
+- Loading keys for PGP, SSH, and secure backup (Keys)
+- Backup and restore of OnlyKey (Backup/Restore)
+- Setting OnlyKey preferences (Preferences)
+- Setting advanced options such as Yubikey and U2F security info (Advanced)
 
 The app is required on all systems where Google Authenticator (TOTP) is used]]></description>
     <releaseNotes><![CDATA[
-    - Windows 10 support (Fixes 1903 compatibility issue)
-    - Android support (with OpenPGP message/file encryption support)
-    - FIDO2 (supports Windows Hello and Azure AD)
-    - File encryption (using Firefox, Chrome, Edge(new), Brave web browsers or a native app to encrypt/decrypt files)
-    - PINs can now be changed!
-    - An easy config mode for initial setup, no app needed
-    - Challenge-response (HMACSHA1 - we are working with the KeepassXC project to add OnlyKey support)
-    - Lock button - Lock OnlyKey and computer with touch of button on OnlyKey
-    - Message encryption improvements - Better integration with Keybase, you can now use our search tool to find Keybase user's and easily send secure messages and files. Easily receive secure messages and files from anyone using our web app
-    - Auto OpenPGP key loading - Loading private keys onto OnlyKey is now easier, just provide the key and passphrase and the key is loaded automatically
-    - Auto firmware upgrades - The app prompts when new firmware is available and allows automatic upgrade of firmware.
+- Windows 10 support (Fixes 1903 compatibility issue)
+- Android support (with OpenPGP message/file encryption support)
+- FIDO2 (supports Windows Hello and Azure AD)
+- File encryption (using Firefox, Chrome, Edge(new), Brave web browsers or a native app to encrypt/decrypt files)
+- PINs can now be changed!
+- An easy config mode for initial setup, no app needed
+- Challenge-response (HMACSHA1 - we are working with the KeepassXC project to add OnlyKey support)
+- Lock button - Lock OnlyKey and computer with touch of button on OnlyKey
+- Message encryption improvements - Better integration with Keybase, you can now use our search tool to find Keybase user's and easily send secure messages and files. Easily receive secure messages and files from anyone using our web app
+- Auto OpenPGP key loading - Loading private keys onto OnlyKey is now easier, just provide the key and passphrase and the key is loaded automatically
+- Auto firmware upgrades - The app prompts when new firmware is available and allows automatic upgrade of firmware.
 ]]></releaseNotes>
     <!-- ============================== -->
   </metadata>
