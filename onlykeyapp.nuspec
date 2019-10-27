@@ -12,9 +12,9 @@
     <title>OnlyKey Desktop App</title>
     <authors>CryptoTrust LLC</authors>
     <projectUrl>https://onlykey.io/</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/trustcrypto/OnlyKey-App/master/resources/onlykey_logo_128.png</iconUrl>
+    <iconUrl>https://cdn.statically.io/gh/justenwalker/chocolatey-onlykeyapp/v5.2.0/OnlyKey128x128.png</iconUrl>
     <copyright>2017, CryptoTrust LLC</copyright>
-    <licenseUrl>https://raw.githubusercontent.com/trustcrypto/OnlyKey-App/master/LICENSE.txt</licenseUrl>
+    <licenseUrl>https://github.com/trustcrypto/OnlyKey-App/blob/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/trustcrypto/OnlyKey-App</projectSourceUrl>
     <docsUrl>https://docs.crp.to/app.html</docsUrl>
