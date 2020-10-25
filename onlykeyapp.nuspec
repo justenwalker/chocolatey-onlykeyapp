@@ -4,7 +4,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>onlykeyapp</id>
-    <version>5.2.0</version>
+    <version>5.3.0</version>
     <packageSourceUrl>https://github.com/justenwalker/chocolatey-onlykeyapp</packageSourceUrl>
     <owners>Justen Walker</owners>
     <!-- ============================== -->
@@ -12,7 +12,7 @@
     <title>OnlyKey Desktop App</title>
     <authors>CryptoTrust LLC</authors>
     <projectUrl>https://onlykey.io/</projectUrl>
-    <iconUrl>https://cdn.statically.io/gh/justenwalker/chocolatey-onlykeyapp/v5.2.0/OnlyKey128x128.png</iconUrl>
+    <iconUrl>https://cdn.statically.io/gh/justenwalker/chocolatey-onlykeyapp/master/OnlyKey128x128.png</iconUrl>
     <copyright>2017, CryptoTrust LLC</copyright>
     <licenseUrl>https://github.com/trustcrypto/OnlyKey-App/blob/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
@@ -34,17 +34,13 @@ OnlyKey App is an app to be used along with an OnlyKey device. The app is used f
 
 The app is required on all systems where Google Authenticator (TOTP) is used]]></description>
     <releaseNotes><![CDATA[
-- Windows 10 support (Fixes 1903 compatibility issue)
-- Android support (with OpenPGP message/file encryption support)
-- FIDO2 (supports Windows Hello and Azure AD)
-- File encryption (using Firefox, Chrome, Edge(new), Brave web browsers or a native app to encrypt/decrypt files)
-- PINs can now be changed!
-- An easy config mode for initial setup, no app needed
-- Challenge-response (HMACSHA1 - we are working with the KeepassXC project to add OnlyKey support)
-- Lock button - Lock OnlyKey and computer with touch of button on OnlyKey
-- Message encryption improvements - Better integration with Keybase, you can now use our search tool to find Keybase user's and easily send secure messages and files. Easily receive secure messages and files from anyone using our web app
-- Auto OpenPGP key loading - Loading private keys onto OnlyKey is now easier, just provide the key and passphrase and the key is loaded automatically
-- Auto firmware upgrades - The app prompts when new firmware is available and allows automatic upgrade of firmware.
+- OnlyKey GPG agent support
+- WebCrypt 3.0 Available in Nov 2020.
+- Enhanced FIDO2 support (improved usability and ability to manage individual FIDO2 resident keys)
+- Sysadmin mode - SysAdmin mode permits OnlyKey to type almost any combination of characters such as Ctrl-Alt-Del, then enter usernames/passwords or system commands.
+- Primary Profile and Secondary Profile LED Color - OnlyKey supports a primary and secondary profile, switching between the two is now even easier. Hold down button #3 for 5 seconds to lock OnlyKey to switch profiles. Recognizing which profile you are logged into is now easier with profile colors, OnlyKey has Green light for Primary profile and Blue light for Secondary profile.
+- Customizable HMAC Keys - By default HMAC keys are random, these can now be customized for HMAC challenge-response. This feature is used for things like KeePassXC support.
+- Improved OnlyKey Agent SSH support - OnlyKey SSH agent now supports both derived keys and stored keys for users who wish to use a single key to log into multiple servers. PGP (RSA and ECC) key import support will be added in our next OnlyKey SSH agent release. This allows users to import existing keys to OnlyKey for secure SSH. Alternatively, OpenSSH supports OnlyKey — read more about that here.
 ]]></releaseNotes>
     <!-- ============================== -->
   </metadata>
