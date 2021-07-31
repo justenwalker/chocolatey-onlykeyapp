@@ -4,7 +4,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>onlykeyapp</id>
-    <version>5.3.0</version>
+    <version>5.3.3</version>
     <packageSourceUrl>https://github.com/justenwalker/chocolatey-onlykeyapp</packageSourceUrl>
     <owners>Justen Walker</owners>
     <!-- ============================== -->
@@ -12,13 +12,13 @@
     <title>OnlyKey Desktop App</title>
     <authors>CryptoTrust LLC</authors>
     <projectUrl>https://onlykey.io/</projectUrl>
-    <iconUrl>https://cdn.statically.io/gh/justenwalker/chocolatey-onlykeyapp/master/OnlyKey128x128.png</iconUrl>
+    <iconUrl>https://cdn.statically.io/gh/justenwalker/chocolatey-onlykeyapp/main/OnlyKey128x128.png</iconUrl>
     <copyright>2017, CryptoTrust LLC</copyright>
     <licenseUrl>https://github.com/trustcrypto/OnlyKey-App/blob/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/trustcrypto/OnlyKey-App</projectSourceUrl>
     <docsUrl>https://docs.crp.to/app.html</docsUrl>
-    <mailingListUrl>https://groups.google.com/forum/#!categories/onlykey</mailingListUrl>
+    <mailingListUrl>https://onlykey.discourse.group/</mailingListUrl>
     <bugTrackerUrl>https://github.com/trustcrypto/OnlyKey-App/issues</bugTrackerUrl>
     <tags>OnlyKey crypto</tags>
     <summary>The official app for OnlyKey</summary>
@@ -34,13 +34,11 @@ OnlyKey App is an app to be used along with an OnlyKey device. The app is used f
 
 The app is required on all systems where Google Authenticator (TOTP) is used]]></description>
     <releaseNotes><![CDATA[
-- OnlyKey GPG agent support
-- WebCrypt 3.0 Available in Nov 2020.
-- Enhanced FIDO2 support (improved usability and ability to manage individual FIDO2 resident keys)
-- Sysadmin mode - SysAdmin mode permits OnlyKey to type almost any combination of characters such as Ctrl-Alt-Del, then enter usernames/passwords or system commands.
-- Primary Profile and Secondary Profile LED Color - OnlyKey supports a primary and secondary profile, switching between the two is now even easier. Hold down button #3 for 5 seconds to lock OnlyKey to switch profiles. Recognizing which profile you are logged into is now easier with profile colors, OnlyKey has Green light for Primary profile and Blue light for Secondary profile.
-- Customizable HMAC Keys - By default HMAC keys are random, these can now be customized for HMAC challenge-response. This feature is used for things like KeePassXC support.
-- Improved OnlyKey Agent SSH support - OnlyKey SSH agent now supports both derived keys and stored keys for users who wish to use a single key to log into multiple servers. PGP (RSA and ECC) key import support will be added in our next OnlyKey SSH agent release. This allows users to import existing keys to OnlyKey for secure SSH. Alternatively, OpenSSH supports OnlyKey — read more about that here.
+- Automatically installing UDEV rule for Linux app (Install via .DEB)
+- Load OpenSSH keys
+- Load HMAC keys for challenge-response
+- Display firmware auto-upgrade prompt with firmware upgrade guide
+- This release includes support for new features in OnlyKey firmware v2.1.1
 ]]></releaseNotes>
     <!-- ============================== -->
   </metadata>
