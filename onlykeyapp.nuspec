@@ -4,7 +4,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>onlykeyapp</id>
-    <version>5.3.3</version>
+    <version>5.3.4</version>
     <packageSourceUrl>https://github.com/justenwalker/chocolatey-onlykeyapp</packageSourceUrl>
     <owners>Justen Walker</owners>
     <!-- ============================== -->
@@ -20,7 +20,7 @@
     <docsUrl>https://docs.crp.to/app.html</docsUrl>
     <mailingListUrl>https://onlykey.discourse.group/</mailingListUrl>
     <bugTrackerUrl>https://github.com/trustcrypto/OnlyKey-App/issues</bugTrackerUrl>
-    <tags>OnlyKey crypto</tags>
+    <tags>onlykey security passwords password-manager crypto authenticator authentication keys keystore totp gpg gnupg pgp openpgp ssh encrypt decrypt admin totp 2fa mfa fido u2f desktop admin</tags>
     <summary>The official app for OnlyKey</summary>
     <description><![CDATA[
 OnlyKey App is an app to be used along with an OnlyKey device. The app is used for things like:
@@ -34,11 +34,10 @@ OnlyKey App is an app to be used along with an OnlyKey device. The app is used f
 
 The app is required on all systems where Google Authenticator (TOTP) is used]]></description>
     <releaseNotes><![CDATA[
-- Automatically installing UDEV rule for Linux app (Install via .DEB)
-- Load OpenSSH keys
-- Load HMAC keys for challenge-response
-- Display firmware auto-upgrade prompt with firmware upgrade guide
-- This release includes support for new features in OnlyKey firmware v2.1.1
+- Redesign of UI
+- Redesign of slots screen for simple/advanced configuration
+- Backup verification (there is a button to verify backup file integrity)
+- This release includes support for new features in OnlyKey firmware v2.1.2 (24 Yubikey OTP Slots)
 ]]></releaseNotes>
     <!-- ============================== -->
   </metadata>
