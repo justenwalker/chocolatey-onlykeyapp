@@ -12,7 +12,7 @@ This is a [Chocolatey](https://chocolatey.org/) package to install the [OnlyKey 
 ### Install current version
 
 ```
-> choco install onlykeyapp -y --version=5.3.4
+> choco install onlykeyapp -y --version=5.3.6
 ```
 
 ### Install from Source
